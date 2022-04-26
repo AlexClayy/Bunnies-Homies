@@ -6,7 +6,6 @@ const Home: NextPage = (props) => {
   return (
     <div>
             <meta property="og:type" content="website"/>
-            <meta name="author" content="John Doe">
             <meta property="og:site_name" content="Boss Bunny"/>
             <meta property="og:title" content="Mint Here"/>
             <meta property="og:description" content="A collection of the chillest BUNNIES on the block(chain)in search of immaculate vibes.  They’re bringing the party to Solana, and you’re invited.

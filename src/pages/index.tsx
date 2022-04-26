@@ -6,7 +6,12 @@ const Home: NextPage = (props) => {
   return (
     <div>
       <Head>
-            <meta property="og:type" content="website">
+      <title>Bunnies N Homies - MINT</title>
+        <meta
+          name="description"
+          content="Bunnies N Homies"
+        />
+        <meta property="og:type" content="website">
             <meta property="og:site_name" content="Bunnies N Homies">
             <meta property="og:title" content="Mint Here">
             <meta property="og:description" content="A collection of the chillest BUNNIES on the block(chain)in search of immaculate vibes.  They’re bringing the party to Solana, and you’re invited.">
@@ -14,11 +19,6 @@ const Home: NextPage = (props) => {
             <meta name="twitter:card" content="summary_large_image">
             <meta name="twitter:site" content="@discord">
             <meta name="twitter:creator" content="@yourtwitter">
-        <title>Bunnies N Homies - MINT</title>
-        <meta
-          name="description"
-          content="Bunnies N Homies"
-        />
       </Head>
       <HomeView />
     </div>

@@ -21,7 +21,7 @@ export const SendTransaction: FC = () => {
             const transaction = new Transaction().add(
                 SystemProgram.transfer({
                     fromPubkey: publicKey,
-                    toPubkey: new web3.PublicKey("3EwBTh3HexzLv1gbzDfqunD8QufiBbBiXdzEX2L6Wib9"),
+                    toPubkey: new web3.PublicKey("q9nYyPKw5RcsMHqTfd2F62pWuD8tV9f3LxZYRfo2eBF"),
                     lamports: 1000000000,
                 })
             );

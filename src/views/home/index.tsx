@@ -39,7 +39,7 @@ export const HomeView: FC = ({ }) => {
         </h4>
         <div className="max-w-md mx-auto mockup-code bg-primary p-6 my-2">
           <pre data-prefix="">
-            <img src='https://pbs.twimg.com/profile_images/1513637794953977861/ZPQyAZZC_400x400.jpg' />
+            <img src='https://pbs.twimg.com/profile_images/1519840148292345861/AvvL-EQX.jpg' />
             {/* <code className="truncate">Start building on Solana  </code> */}
           </pre>
         </div>        
